@@ -1,0 +1,22 @@
+
+V1 in 0 SIN(0 6.5 1e8 0 0 0)
+R1 in n1 90
+X1 n1 0 XSV MEM_YAKOPCIC
+
+.params MEM_YAKOPCIC
++ Vp =2.86
++ Vn =3.56
++ Ap =5.5e8
++ An =4e8
++ xp =0.9
++ xn =0.9
++ alphap =20
++ alphan=20
++ a1=0.165
++ a2 =0.165
++ b=0.05
++ x0 =0.01
++ eta=1
+
+.OPTIONS
+.TRAN 1ps 40ns

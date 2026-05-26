@@ -1,0 +1,21 @@
+
+V1 TE 0 SIN (0 0.4 100 0 0 0)
+X1 TE 0 XSV MEM_YAKOPCIC
+
+.params MEM_YAKOPCIC
++ Vp=0.16
++ Vn=0.15
++ Ap=4000
++ An=4000
++ xp=0.3
++ xn=0.5
++ alphap=1
++ alphan=5
++ a1=0.17
++ a2=0.17
++ b=0.05
++ x0=0.11
++ eta=1
+
+.OPTIONS
+.TRAN 1us 40ms

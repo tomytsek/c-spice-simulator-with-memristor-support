@@ -1,0 +1,21 @@
+
+V1 TE 0 PWL(0 0) (0.5s 1.25) (1s 0) (1.5s 1.25) (2s 0) (2.5s 1.25) (3s 0) (3.5s 1.25) (4s 0) (4.5s 1.25) (5s 0) (5.5s -1.25) (6s 0) (6.5s -1.25) (7s 0) (7.5s -1.25) (8s 0)
+X1 TE 0 XSV MEM_YAKOPCIC
+
+.params MEM_YAKOPCIC
++ Vp=0.9
++ Vn=0.2
++ Ap=0.1
++ An=10
++ xp=0.15
++ xn=0.25
++ alphap=1
++ alphan=4
++ a1=0.076
++ a2=0.06
++ b=3
++ x0=0.001
++ eta=1
+
+.OPTIONS
+.TRAN 1e-4 8s

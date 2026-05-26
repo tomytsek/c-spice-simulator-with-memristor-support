@@ -44,10 +44,10 @@ Users only need to specify model parameters, making simulation significantly mor
 memristor-spice-simulator/
 │
 ├── src/                  # Core simulator source code
-│   ├── parser/           # Netlist parser
-│   ├── solver/           # Numerical solvers
-│   ├── components/       # Circuit elements implementation
-│   └── analyses/         # DC, AC, transient, OP analysis
+│   ├── parser.c           # Netlist parser
+│   ├── solvers.c           # Numerical solvers
+│   ├── components.c       # Circuit elements implementation
+│   └── analyses.c         # DC, AC, transient, OP analysis
 │
 ├── tests/                # Example netlists
 │
